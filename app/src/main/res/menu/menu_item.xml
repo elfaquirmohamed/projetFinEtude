@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+
+    <item android:id="@+id/nav_home"
+        android:title="Accueil"
+        android:icon="@drawable/home"
+        />
+
+    <item android:id="@+id/nav_cart"
+        android:title="Panier"
+        android:icon="@drawable/nav_cart"
+        />
+
+
+
+    <item android:id="@+id/nav_restaurant"
+        android:title="Restaurant"
+        android:icon="@drawable/category"
+        />
+    <item android:id="@+id/nav_position"
+        android:title="Ma position"
+        android:icon="@drawable/position"
+        />
+    <item android:id="@+id/nav_robot"
+        android:title="Robot"
+        android:icon="@drawable/robot"
+        />
+    <item android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/logout"
+        />
+
+</group>
+</menu>
